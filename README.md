@@ -1,16 +1,16 @@
-## Hi there 👋
+Hi there 
+candles = [4, 1, 4, 3]
+tallest = candles[0]  
 
-<!--
-**Malika44/Malika44** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+for height in candles:
+    if height > tallest:
+        tallest = height  
 
-Here are some ideas to get you started:
+count = 0
+for height in candles:
+    if height == tallest:
+        count += 1
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+print(count)
+
+
