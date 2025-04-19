@@ -24,10 +24,15 @@ Row 2 needs 2 balls
 
 Row 3 needs 3 balls
 
-and so on...
+3- D5: Triangle of Powers of 2:
 
-You can use either color for each row, but you must have enough balls of that color to complete the whole row.
+This small Python program prints a symmetric triangle pattern using powers of 2, aligned to look like a real triangle.
 
-Return the maximum height of the triangle.
+📌 How It Works
+You enter the height of the triangle (for example, 4).
+
+The program prints rows where each row starts from 2^0 and goes up to a certain power, then mirrors back down without repeating the middle number.
+
+The pattern is neatly centered, giving the appearance of a triangle.
 
 
