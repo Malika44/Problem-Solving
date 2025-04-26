@@ -31,6 +31,26 @@ This small Python program prints a symmetric triangle pattern using powers of 2,
 📌 How It Works
 You enter the height of the triangle (for example, 4).
 
+4-D6:Path Crossing Detection:
+
+This Python program checks whether a moving point crosses its own path based on a given list of movement distances.
+
+The point starts at coordinate (0, 0) and initially moves North.
+
+The directions cycle in the order: North → West → South → East (and repeat).
+
+For each distance in the list:
+
+The point moves step-by-step.
+
+Every position visited is recorded.
+
+If the point visits any location more than once, the program returns True (indicating a crossing).
+
+If the point never crosses its path, it returns False.
+
+This ensures an accurate and detailed check of the entire path rather than just major stops.
+
 The program prints rows where each row starts from 2^0 and goes up to a certain power, then mirrors back down without repeating the middle number.
 
 The pattern is neatly centered, giving the appearance of a triangle.
